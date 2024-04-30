@@ -1,0 +1,22 @@
+<% layout("/layouts/boilerplate") %>
+
+<body>
+    <h3>Search Results </h3>
+    <div class="cards  row row-cols-lg-4 row-cols-md-2 row-cols-sm-1">
+        <% for(let result of searchResults) {%>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title"><%= result.role %></h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary"><%= result.company %></h6>
+              <div class="info">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-items"><i class="fa-regular fa-clock icons" ></i><%= result.duration %></li>
+                    <li class="list-group-item list-items"><i class="fa-solid fa-indian-rupee-sign icons"></i><%= result.salary.toLocaleString("en-IN") %> /month</li>
+                    <li class="list-group-item list-items"><i class="fa-solid fa-location-dot icons"></i><%= result.location %></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <% } %>
+      </div>
+</body>

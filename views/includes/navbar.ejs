@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-purple navbar-dark navbar-light sticky-top"> 
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <!-- <a class="nav-link active" href="#"><i class="fa-solid fa-laptop-file main-logo"></i></a> -->
+      <a class="navbar-brand web-name" href="/listings">Shigoto</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 list">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/listings">Home</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link active" href="/listings/jobs">Jobs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/listings/about">About Japan</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search" method="post" action="/listings/search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
+        <button class="btn search-btn" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,39 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+/* .container{
+    padding-left: 0;
+} */
+   
+/* navbar */
+.navbar-purple{
+    background-color: #8a2be2; 
+    width: auto;
+}
+.list{
+    margin-top: 0.5rem;
+}
+.nav-item{
+    box-shadow: none;
+    transition: box-shadow 0.3s ease;
+}
+.nav-item:hover{
+    box-shadow: 0 4px 6px rgba(21, 16, 16, 0.2);
+}
+.web-name{
+    color: white;
+    font-size: 2rem;
+    margin-right: 2rem;
+    padding-left: 0;
+    font-weight: 800;
+}
+.search-btn{
+    color: black; 
+    background-color: white !important;
+    border-color: white;
+    font-weight: 600 !important;
+}
+.search-btn:hover{
+    background-color: #83E22B !important;
+}
+

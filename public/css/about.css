@@ -1,0 +1,24 @@
+.fact{
+    background-color: #95efef;
+    border: 0.5rem solid #36a7a7;
+}
+/* .right{
+    position: relative;
+    left: 50%;
+} */
+.first-col{
+    margin-left: 2.5rem;
+}
+.third-col{
+    padding-right: 0;
+}
+.fact-title{
+    color : #8A2BE2;
+    font-weight: bolder;
+}
+.fact p{
+    margin-left: 0;
+}
+.fact div{
+    text-align: start;
+}

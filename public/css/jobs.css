@@ -1,0 +1,33 @@
+
+/* cards */
+.cards{ 
+    margin-top: 0rem;
+    margin-left: 1;
+}
+.card{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    padding: 0;
+    border: 1px  black; 
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.1);
+}
+.card-title{
+    color:#8A2BE2;
+}
+.card-body{
+    padding-top: 0.5rem;
+}
+h3{
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 0.25rem;
+    color: #299696;
+}
+.list-items{
+    font-size: 0.80rem
+}
+.icons{
+    font-size: 0.80rem;
+    margin-right: 0.35rem;
+}
+
